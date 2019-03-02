@@ -1,7 +1,7 @@
 from torch.autograd import Variable
 import matplotlib.pyplot as plt
 
-fileNameandLoc= r'''C:\Users\Asus\Desktop\CH\colormix\seedr\course dl\practicex\zero_to_deep_learning_video\data\housing-data.csv''';
+fileNameandLoc= r'''C:\...\housing-data.csv''';
 tab = pd.read_csv(fileNameandLoc)
 
 tab.info()
